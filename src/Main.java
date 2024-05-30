@@ -48,7 +48,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         double x = scanner.nextDouble();
 
-        for (int i = 1; i <= 11; i++) {
+        for (int i = 1; i <= 16; i++) {
             System.out.println("Результат функции " + i + ": " + calculate(x, a, b, i));
         }
     }
